@@ -2,7 +2,7 @@
 # shellcheck disable=SC2034
 
 iso_name="EosOS-plasma-desktop"
-iso_label="EosOS_$(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%Y%m)"
+iso_label="EOS_$(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%Y%m)"
 iso_publisher="EosOS GNU-Linux <https://github.com/sourcecorearch>"
 iso_application="EosOS Live/Rescue DVD"
 iso_version="$(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%Y.%m.%d)"
