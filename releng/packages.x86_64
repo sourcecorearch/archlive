@@ -70,6 +70,7 @@ libfido2
 libusb-compat
 libwnck3
 linux
+linux-headers
 linux-firmware-amdgpu
 linux-firmware-atheros
 linux-firmware-broadcom
