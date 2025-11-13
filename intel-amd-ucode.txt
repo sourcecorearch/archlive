@@ -1,0 +1,9 @@
+  - name: "CPU Microcode"
+    description: "Install CPU microcode updates for Intel or AMD processors"
+    expanded: true
+    selected: true
+    packages:
+      - name: "intel-ucode"
+        description: "Microcode updates for Intel CPUs"
+      - name: "amd-ucode"
+        description: "Microcode updates for AMD CPUs"
